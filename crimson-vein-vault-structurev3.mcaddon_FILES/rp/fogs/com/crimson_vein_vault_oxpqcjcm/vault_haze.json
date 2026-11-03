@@ -1,0 +1,22 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:fog_settings": {
+    "description": {
+      "identifier": "com_crimson_vein_vault_oxpqcjcm:vault_haze"
+    },
+    "distance": {
+      "air": {
+        "fog_start": 0.35,
+        "fog_end": 0.75,
+        "fog_color": "#33263A",
+        "render_distance_type": "render"
+      },
+      "water": {
+        "fog_start": 0.0,
+        "fog_end": 24.0,
+        "fog_color": "#302036",
+        "render_distance_type": "fixed"
+      }
+    }
+  }
+}

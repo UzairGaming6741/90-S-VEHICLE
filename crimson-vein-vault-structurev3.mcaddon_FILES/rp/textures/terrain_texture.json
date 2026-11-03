@@ -1,0 +1,12 @@
+{
+  "resource_pack_name": "Crimson Vein Vault",
+  "texture_name": "atlas.terrain",
+  "padding": 8,
+  "num_mip_levels": 4,
+  "texture_data": {
+    "com_crimson_vein_vault_oxpqcjcm:bleed_brick": { "textures": "textures/com/crimson_vein_vault_oxpqcjcm/blocks/bleed_brick" },
+    "com_crimson_vein_vault_oxpqcjcm:flesh_tile": { "textures": "textures/com/crimson_vein_vault_oxpqcjcm/blocks/flesh_tile" },
+    "com_crimson_vein_vault_oxpqcjcm:liminal_quartz": { "textures": "textures/com/crimson_vein_vault_oxpqcjcm/blocks/liminal_quartz" },
+    "com_crimson_vein_vault_oxpqcjcm:corrosive_grate": { "textures": "textures/com/crimson_vein_vault_oxpqcjcm/blocks/corrosive_grate" }
+  }
+}

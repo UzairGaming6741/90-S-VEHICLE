@@ -1,0 +1,44 @@
+{
+  "format_version": 2,
+  "header": {
+    "description": "[BLOCKS]\n1) 'void00:bleed_brick' (Bleeding Voidslate Brick): Unbreakable bedrock hardness. Jet-black masonry block with pulsing purple static lines, constantly emitting dripping red blood particles.\n2) 'void00:flesh_tile' (Flesh Carpet Tiles): Floor block with crimson tissue texture. Overrides default footstep audio to play a custom heavy, wet squelching walking sound.\n3) 'void00:liminal_quartz' (Corrupted Faded Quartz): Wall material with dirty white plaster texture. Runs a sub-texture flip frame animation loop to subtly flicker and visually warp.\n4) 'void00:corrosive_grate' (The Rust Lattice): Floor grating. Triggers a strict 28% script chance per tick to instantly unequip all active armor plates from armor slots directly into inventory/hotbar slots.\n\n[STRUCTURE & PERFORMANCE]\nGenerate an underground jigsaw structure called 'The Veins of 00' using the blocks above. Spawns exclusively at fixed coordinates X:0, Z:0 between Y:-10 and Y:-50, mimicking Trial Chambers and Ancient Cities with corridors, traps, junctions, and walkways. Optimize for low-end device performance by replacing heavy particles with a short-range Render Dragon fog system, using opaque block materials to prevent rendering lag, and compressed audio files streamed directly from memory storage to eliminate stuttering. Add an unbreakable 100x100 block anti-grief protection boundary centered on the surface above the vaults.\n\n[AUDIO & ENVIRONMENT LOGIC]\nAn execution loop tracks players inside, ticking up a hidden 'Detachment' scoreboard. Higher scores narrow the player's fog and increase audio playback frequency. Stream compressed audio randomly every 60 to 300 seconds to isolated players: a distant child crying ('ambient.memory.crying') and a faint static whisper saying 'hey bro lets play tomorrow' ('ambient.memory.chat1').\n\n[ENTITIES]\n1) 'void00:soul_siphon_warden': Hovering, knockback-immune wraith in glowing deepslate armor. Patrols corridors, inflicts Wither and Slowness on hit, and siphons player health to regenerate its own.\n2) 'void00:the_crimson_error': 7-foot-tall (2.2 blocks) elite boss with 140 HP (70 hearts), textured in bloody-red raw tissue with an eyeless face and split jaw.\n- Melee Damage vs Unarmored: Exactly 2.0 hearts.\n- Melee Damage vs Diamond/Netherite Armor: Exactly 1.3 hearts.\n- Ability 1 (Blinding Spit): Fires a dark fluid projectile inflicting Blindness for 8 seconds.\n- Ability 2 (Horror Jumpscare): Striking a blind player flashes a full-screen visual jumpscare with a loud screech, dealing 1.0 heart of unmitigated true damage bypassing armor.\n- Phase 2 Condition: At or below 20 HP (10 hearts), plays a transformation animation to wield a 'Bloody-Red Scythe' asset. Base attacks override previous armor calculations to deal exactly 4.3 hearts of true flat damage per strike.\n\n[LOOT MATRIX]\nEnable a global 24-hour chest reset timer to automatically refill containers daily. \n- Corridor Chest Drop Rates: Strict 21% chance for 1 Diamond Chestplate, 43% chance for exactly 6 Diamonds, 36% chance for basic combat gear (healing potions, ender pearls, golden apples).\n- Central Deep Vault Chest: Contains zero default lifesteal or revive beacon references. Carries a strict 17% probability chance to reward a custom item asset providing a '+2 Hearts' permanent maximum health modifier.\n\n[VALIDATION]\nVerify everything is perfect and correct don't add bugs. Parse all float decimals, schema strings, and script vectors for absolute execution stability.",
+    "name": "Crimson Vein Vault",
+    "uuid": "32231ed2-9ff7-4bfb-a5e1-065743ede90e",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      26,
+      50
+    ],
+    "pack_scope": "world"
+  },
+  "capabilities": [
+    "pbr"
+  ],
+  "modules": [
+    {
+      "description": "Crimson Vein Vault Resource Pack",
+      "type": "resources",
+      "uuid": "7483f1f7-2df0-427c-a20a-aa45c0a5cd61",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "uuid": "d3610074-2387-4689-9989-45821059f7c6",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ]
+}

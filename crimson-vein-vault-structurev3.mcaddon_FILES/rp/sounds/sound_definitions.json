@@ -1,0 +1,21 @@
+{
+  "format_version": "1.14.0",
+  "sound_definitions": {
+    "com_crimson_vein_vault_oxpqcjcm:flesh_step": {
+      "category": "block",
+      "sounds": [{ "name": "sounds/com/crimson_vein_vault_oxpqcjcm/flesh_step", "volume": 0.9 }]
+    },
+    "ambient.memory.crying": {
+      "category": "ambient",
+      "sounds": [{ "name": "sounds/com/crimson_vein_vault_oxpqcjcm/memory_crying", "volume": 0.7 }]
+    },
+    "ambient.memory.chat1": {
+      "category": "ambient",
+      "sounds": [{ "name": "sounds/com/crimson_vein_vault_oxpqcjcm/memory_whisper", "volume": 0.45 }]
+    },
+    "com_crimson_vein_vault_oxpqcjcm:error_screech": {
+      "category": "hostile",
+      "sounds": [{ "name": "sounds/com/crimson_vein_vault_oxpqcjcm/error_screech", "volume": 1.0 }]
+    }
+  }
+}

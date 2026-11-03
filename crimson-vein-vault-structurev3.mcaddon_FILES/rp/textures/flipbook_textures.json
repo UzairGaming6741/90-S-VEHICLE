@@ -1,0 +1,14 @@
+[
+  {
+    "atlas_tile": "com_crimson_vein_vault_oxpqcjcm:bleed_brick",
+    "flipbook_texture": "textures/com/crimson_vein_vault_oxpqcjcm/blocks/bleed_brick",
+    "ticks_per_frame": 10,
+    "frames": [0, 1]
+  },
+  {
+    "atlas_tile": "com_crimson_vein_vault_oxpqcjcm:liminal_quartz",
+    "flipbook_texture": "textures/com/crimson_vein_vault_oxpqcjcm/blocks/liminal_quartz",
+    "ticks_per_frame": 12,
+    "frames": [0, 1, 2, 1]
+  }
+]

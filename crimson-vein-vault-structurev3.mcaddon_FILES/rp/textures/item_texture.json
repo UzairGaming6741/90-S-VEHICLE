@@ -1,0 +1,9 @@
+{
+  "resource_pack_name": "Crimson Vein Vault",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "com_crimson_vein_vault_oxpqcjcm:heart_shard": { "textures": "textures/com/crimson_vein_vault_oxpqcjcm/items/heart_shard" },
+    "com_crimson_vein_vault_oxpqcjcm:bloody_red_scythe": { "textures": "textures/com/crimson_vein_vault_oxpqcjcm/items/bloody_red_scythe" },
+    "com_crimson_vein_vault_oxpqcjcm:healing_vial": { "textures": "textures/com/crimson_vein_vault_oxpqcjcm/items/healing_vial" }
+  }
+}

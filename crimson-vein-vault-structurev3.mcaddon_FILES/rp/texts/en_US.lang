@@ -1,0 +1,13 @@
+entity.com_crimson_vein_vault_oxpqcjcm:soul_siphon_warden.name=Soul Siphon Warden
+item.spawn_egg.entity.com_crimson_vein_vault_oxpqcjcm:soul_siphon_warden.name=Soul Siphon Warden Spawn Egg
+action.interact.com_crimson_vein_vault_oxpqcjcm:soul_siphon_warden.name=Interact with Soul Siphon Warden
+tile.com_crimson_vein_vault_oxpqcjcm:bleed_brick.name=Bleeding Voidslate Brick
+tile.com_crimson_vein_vault_oxpqcjcm:flesh_tile.name=Flesh Carpet Tiles
+tile.com_crimson_vein_vault_oxpqcjcm:liminal_quartz.name=Corrupted Faded Quartz
+tile.com_crimson_vein_vault_oxpqcjcm:corrosive_grate.name=The Rust Lattice
+item.com_crimson_vein_vault_oxpqcjcm:heart_shard=Heart Shard
+item.com_crimson_vein_vault_oxpqcjcm:bloody_red_scythe=Bloody-Red Scythe
+item.com_crimson_vein_vault_oxpqcjcm:healing_vial=Crimson Healing Vial
+entity.com_crimson_vein_vault_oxpqcjcm:the_crimson_error.name=The Crimson Error
+item.spawn_egg.entity.com_crimson_vein_vault_oxpqcjcm:the_crimson_error.name=The Crimson Error Spawn Egg
+action.interact.com_crimson_vein_vault_oxpqcjcm:the_crimson_error.name=Interact with The Crimson Error
